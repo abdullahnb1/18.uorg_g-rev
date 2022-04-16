@@ -1,0 +1,2 @@
+uorg
+-DCATKIN_DEVEL_PREFIX=/home/naci/uorg/devel -DCMAKE_INSTALL_PREFIX=/home/naci/uorg/install -G Unix Makefiles

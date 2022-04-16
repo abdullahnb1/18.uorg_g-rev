@@ -1,0 +1,8 @@
+prefix=/home/naci/uorg/devel
+
+Name: uorg
+Description: Description of uorg
+Version: 0.0.0
+Cflags: -I/home/naci/uorg/devel/include
+Libs: -L${prefix}/lib 
+Requires: 
