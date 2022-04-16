@@ -14,6 +14,7 @@ void go_pos(double x, double y, double z){
     konum_srv.request.konum.pose.position.z = z;
     client.call(konum_srv);
     ROS_INFO("%f %f %f",x,y,z);
+    
     ros::Duration(3).sleep();
 
 }
